@@ -1,2 +1,0 @@
-# DDR-USING-CNN
-
