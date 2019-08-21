@@ -1,0 +1,10 @@
+Installed the following:
+
+*Anaconda
+*Created a virtual environment for project
+*Jupyter Notebook
+*Keras:- Keras is an open-source neural-network library written in Python.
+*TensorFlow:-It is a symbolic math library, and is also used for machine learning applications such as neural networks.
+
+*Anaconda Packages:
+numpy,sklearn,matplotlib,pandas,sys,seaborn
