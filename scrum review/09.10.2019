@@ -1,0 +1,19 @@
+opening issue:
+
+we take vggnet model of cnn but having problems in providing parameters.
+
+current status:
+1. loaded the dataset for detecting diabetic retinopathy
+2.covert the dataset into array
+3.by code we split the dataset into train and test
+parameters are setting for trainig the model(but result is not correct ..working on it)
+4. work the same code for detectin the glaucoma
+
+previous week
+for collecting the dataset for cotton wool spot. we went to holy cross hospital and meet the dr but unfortunetly we didnt get the dataset due to the lack of fundus camera.
+so we contact the chaithaniya hospital but we didnt get the dataset . so we decided to change the cotton wool spot to glaucoma.
+we got the dataset of glaucoma  
+
+next week
+will meet dr for understanding the parameters that are taking for identifiying the glaucoma and diabetic retinopathy
+try to re code the model with the parameters
