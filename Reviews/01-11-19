@@ -1,0 +1,15 @@
+Creating the trained dataset:
+def create_train_data():
+    training_data = []
+    
+    for folder in tqdm(os.listdir(TRAIN_DIR)):
+        for img in tqdm(os.listdir(TRAIN_DIR+folder)):
+            path = os.path.join(TRAIN_DIR+folder,img)
+            label = label_imgv2(folder)
+            img = cv2.imread(path,cv2.IMREAD_COLOR)
+            img = cv2.resize(img, (IMG_SIZE,IMG_SIZE))
+            training_data.append([np.array(img),np.array(label)])
+    
+    shuffle(training_data)
+    np.save('train_data.npy', training_data)        
+    return training_data
